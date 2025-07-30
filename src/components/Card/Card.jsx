@@ -7,7 +7,7 @@ function Card() {
       <div className="simpson_card">
         <img src={simpson.avatarURL} alt="Simpson image" />
         <p className="card_info">Name: {simpson.fullName}</p>
-        <p className="card_info">Ocupation: {simpson.ocupation}</p>
+        <p className="card_info">Occupation: {simpson.occupation}</p>
         <p className="card_info">Hobby: {simpson.hobby}</p>
       </div>
     </div>

@@ -1,15 +1,12 @@
 import Card from "../../components/Card/Card";
 import "./styles.css";
 
-function () {
+function Homework_02() {
   return (
     <div className="app">
-        <div><Card /></div>
-        <div><Card /></div>
-         <div><Card /></div>
-
-
-
+      <Card />
+      <Card />
+      <Card />
     </div>
   );
 }
