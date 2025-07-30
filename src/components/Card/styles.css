@@ -1,4 +1,4 @@
-.animal_card {
+.simpson_card {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -9,11 +9,7 @@
   margin: 30px;
   border-radius: 8px;
 }
-.card_title {
-  font-size: 30px;
-  color: purple;
-  font-weight: bold;
-}
+
 .avatar {
   width: 150px;
   height: 150px;
