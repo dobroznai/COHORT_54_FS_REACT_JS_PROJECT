@@ -1,5 +1,6 @@
-import Button from "./src/components/Button.jsx";
-import { animal, getPlanteaterStatus, hello } from "./data.js";
+import Button from "../../components/Button/Button.jsx";
+import getPlanteaterStatus, { hello, animal } from "./data.js";
+import "./styles.css";
 
 function Lesson_02() {
   return (
