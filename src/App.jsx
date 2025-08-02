@@ -23,7 +23,7 @@ function App() {
 
       {/* Consultation */}
       <User
-        firstname={name1}
+        firstname={nameOne}
         lastname="Petrov"
         age="29"
         username="sososo"
