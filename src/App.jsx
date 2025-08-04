@@ -18,10 +18,10 @@ function App() {
       {/* Lessons */}
       {/* <Lesson_02 /> */}
       {/* <Lesson_03 /> */}
-      {/* <Lesson_04 /> */}
+      <Lesson_04 />
       {/* Homeworks */}
       {/* <Homework_02 /> */}
-      <Homework_03 />
+      {/* <Homework_03 /> */}
       {/* Consultation */}
       {/* <Consultation_02 /> */}
     </div>

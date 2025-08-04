@@ -1,8 +1,13 @@
 import React from "react";
 import "./styles.css";
+import Counter from "../../components/Counter/Counter";
 
 function Lesson_04() {
-  return <div></div>;
+  return (
+    <div className="lesson_04_page_wrapper">
+      <Counter />
+    </div>
+  );
 }
 
 export default Lesson_04;
