@@ -1,12 +1,15 @@
 import React from "react";
 import "./styles.css";
 
-function Input({ name, type = "text", placeholder, label }) {
+function Input({ id, name, type = "text", placeholder, label }) {
   return (
     <div className="input_wrapper">
-      <label className="input_label">{label}</label>
+      <label className="input_label" htmlFor={id}>
+        {label}
+      </label>
       <input
         className="input_field"
+        id={id}
         type={type}
         name={name}
         placeholder={placeholder}
