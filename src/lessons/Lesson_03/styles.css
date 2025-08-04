@@ -1,8 +1,22 @@
-.homework03_page_wrapper {
+.lesson03_page_wrapper {
   display: flex;
   flex: 1;
   padding: 40px;
   gap: 40px;
   justify-content: center;
+  flex-wrap: wrap;
+
   background-color: rgb(14, 14, 65);
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
 }

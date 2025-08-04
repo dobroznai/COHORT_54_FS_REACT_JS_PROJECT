@@ -1,6 +1,6 @@
 import React from "react";
 import { users } from "./data";
-import User from "../../../src/components/Card/Consultation_02_UserCard/UserCard";
+import User from "../../components/Card/Consultation_02_UserCard/UserCard";
 import "./styles.css";
 
 function Consultation_02() {
