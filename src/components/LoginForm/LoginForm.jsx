@@ -4,9 +4,9 @@ import Button from "../Button/Button";
 
 function LoginForm() {
   return (
-    <div className="login_form_wrapper">
-      <form className="login_form">
-        <p className="form_name">Login form</p>
+    <form className="login_form_wrapper">
+      <p className="form_name">Login form</p>
+      <div className="login_form">
         <Input
           name="email"
           type="email"
@@ -20,8 +20,8 @@ function LoginForm() {
           label="Password"
         />
         <Button type="submit" buttonName="Login" />
-      </form>
-    </div>
+      </div>
+    </form>
   );
 }
 
