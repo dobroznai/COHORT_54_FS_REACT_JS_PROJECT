@@ -7,6 +7,7 @@ import Lesson_04 from "./lessons/Lesson_04/Lesson_04";
 
 // Homeworks
 import Homework_02 from "./homework/Homework_02/Homework_02";
+import Homework_04 from "./homework/Homework_04/Homework_04";
 
 // Consultation
 import Consultation_02 from "./consultation/Consultation_02/Consultation_02";
@@ -18,10 +19,11 @@ function App() {
       {/* Lessons */}
       {/* <Lesson_02 /> */}
       {/* <Lesson_03 /> */}
-      <Lesson_04 />
+      {/* <Lesson_04 /> */}
       {/* Homeworks */}
       {/* <Homework_02 /> */}
       {/* <Homework_03 /> */}
+      <Homework_04 />
       {/* Consultation */}
       {/* <Consultation_02 /> */}
     </div>
