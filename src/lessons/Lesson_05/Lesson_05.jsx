@@ -17,8 +17,21 @@ function Lesson_05() {
   //   ["Burder", "Salad"]
   const orderList = orders.map((orderItem) => {
     return (
-      <li key={v4()} className="order_item">
-        {orderItem}
+      <li
+        onClick={() => {
+          console.log(orderItem);
+
+          setOrders((preValue) => {
+            console.log(preValue);
+            return [...preValue].filter((item) => {
+              return orderItem.id != item.id;
+            });
+          });
+        }}
+        key={v4()}
+        className="order_item"
+      >
+        {orderItem.name}
       </li>
     );
   });
@@ -30,7 +43,7 @@ function Lesson_05() {
           name={orderButton}
           onClick={() => {
             setOrders((prevValue) => {
-              return [...prevValue, orderButton];
+              return [...prevValue, { id: v4(), name: orderButton }];
             });
           }}
         />
