@@ -5,6 +5,7 @@
   justify-content: flex-start;
   flex: 1;
   padding: 80px;
+  gap: 80px;
 }
 
 .menu_wrapper {
